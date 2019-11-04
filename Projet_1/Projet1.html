@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Mairie</title>
+
+    <!-- partie css --->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<div class="container-fluid ">
+
+    <div class="container"></div>
+    <div class="row"></div>
+
+    <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <h1>Enquete de satisfaction</h1>
+
+
+        <p>Civilité</p>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                M.
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Mme
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+
+                Mlle
+
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Autre
+            </label>
+        </div>
+
+
+        <p>Nom</p>
+
+        <input type="text" name="nom" id="nom"></input>
+        <p>Prénom</p>
+
+        <input type="text" name="prenom" id="prenom"></input>
+        <p>Age</p>
+        <input type="text" name="age" id="age"></input>
+        <p>Adresse</p>
+        <input type="text" name="adresse" id="adresse"></input>
+
+
+        <form>
+            <div class="form-group">
+                <p>  <label for="exampleFormControlInput1">Email address</label></p>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <p>  <label for="exampleInputPassword1">Password</label></p>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+
+            <p><button type="submit" class="btn btn-primary">Submit</button></p>
+        </form>
+
+        <p><button type="button" class="btn btn-primary btn-lg btn-block">Commencer l'Enquete</button></p>
+    </article>
+
+
+
+    <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <h1>Etes-vous domicilié à Paris ou le serez vous prochainement ? </h1>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option1" autocomplete="off"> Oui
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option2" autocomplete="off"> Non
+            </label>
+        </div>
+
+    </article>
+
+    <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+    <h1>Combien de fois etes-vous venu en mairie cette année ?</h1>
+
+        <input type="text" name="nb" id="nb"></input>
+</article>
+
+    <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <h1>Service Sollicité*</h1>
+
+<div>
+<select class="custom-select" id="inputGroupSelect01">
+    <option selected>Accueil</option>
+    <option value="1">Etat Civil</option>
+    <option value="2">Enfance Jeunesse et Ecole</option>
+    <option value="3">Communication</option>
+    <option value="4">Evenemntiel</option>
+    <option value="5">Police Municipale</option>
+    <option value="6">Urbanisme</option>
+</select>
+
+</div>
+
+    </article>
+
+    <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <h1>Comment évaluez-vous l'attente téléphonique ? </h1>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option5" autocomplete="off"> Bon
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option6" autocomplete="off"> Insuffisant
+            </label>
+        </div>
+    </article>
+
+
+
+    <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <h1>Comment jugez-vous la qualité de la réponse ?</h1>
+
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option7" autocomplete="off"> Bon
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option8" autocomplete="off"> Insuffisant
+            </label>
+        </div>
+
+    </article>
+
+
+
+    <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <h1>Comment trouvez-vous l'oganisation des horaires ?</h1>
+
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option9" autocomplete="off"> Bon
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option10" autocomplete="off"> Insuffisant
+            </label>
+        </div>
+
+    </article>
+
+    <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <h1>Qu'avez-vous pensé de votre visite aujourd'hui : propreté et rangement</h1>
+
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option11" autocomplete="off"> Bon
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option12" autocomplete="off"> Insuffisant
+            </label>
+        </div>
+
+    </article>
+
+    <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <h1>Respect de la confidentialité ?</h1>
+
+    </article>
+
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+
+        <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option13" autocomplete="off"> Bon
+        </label>
+        <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option14" autocomplete="off"> Insuffisant
+        </label>
+    </div>
+
+
+
+
+
+    <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <h1>Vos attentes et suggestions </h1>
+<form>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        </form>
+
+        <button type="button" class="btn btn-primary btn-sm">Envoyer</button>
+
+    </article>
+
+</div>
+
+
+</body>
+</html>
