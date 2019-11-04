@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var prenom = document.cookie.replace(/(?:(?:^|.*;\s*)prenom\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+
+    function alertCookie() {
+        alert(document.cookie);
+    }
+
+    function alertCookieValue() {
+        document.getElementById("1").innerHTML = prenom;
+        alert(prenom);
+    }
+</script>
+<h1>Vous etes <span id="1"></span> </h1>
+<button onclick="alertCookie()">Show cookies</button>
+<button onclick="alertCookieValue()">Show cookie value</button>
+</body>
+</html>
